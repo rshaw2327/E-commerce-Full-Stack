@@ -1,0 +1,65 @@
+.cart-m {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 100px;
+    
+}
+
+.cart-total h2 {
+    font-size: 30px;
+    margin-bottom: 70px;
+
+}
+
+
+
+.cart-total{
+    
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    font-size: x-large;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    right:0;
+    bottom: 0;
+    top:8vh;    
+}
+
+.cart-total .bold {
+    font-weight: bolder;
+}
+
+.btncheckout {
+    padding: 10px;
+    color: whitesmoke;
+    background-color: chocolate;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btncheckout:hover {
+    background-color: white;
+    border: 1px solid chocolate;
+    color: chocolate;
+}
+
+.removeCart {
+    padding: 10px;
+    color: whitesmoke;
+    background-color: chocolate;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.removeCart:hover {
+    background-color: white;
+    border: 1px solid chocolate;
+    color: chocolate;
+}
+

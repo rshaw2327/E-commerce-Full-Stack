@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/home.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main class="main">
+        <div class="home-page">
+            <div class="products" id="products">
+                <!-- <div class="product">
+                    <h2>Vitamin D3</h2>
+                    <div class="img"><img src="https://domf5oio6qrcr.cloudfront.net/medialibrary/7155/hb-vitamins-01162072646615.jpg"
+                    alt="Vitamin"></div>
+                    <h3>£8.99</h3>
+                   
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cum et modi unde distinctio
+                        laborum ut similique, corrupti amet deserunt, vitae vero quibusdam sint adipisci quisquam
+                        facilis sit voluptates beatae?
+                    </p>
+                     <h4>health and supplements</h4>
+                    
+                </div>
+               
+            </div> -->
+        </div>
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+
+
+
+
+
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/home.js"></script>
+    <script type="module">
+        import navBar from "./modules/header.js"
+        import footer from "./modules/footer.js"
+
+        let header = document.querySelector("header")
+        let foo = document.querySelector("footer")
+
+        header.innerHTML = navBar()
+        foo.innerHTML = footer()
+    </script>
+</body>
+
+</html>

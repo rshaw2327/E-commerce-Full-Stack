@@ -1,0 +1,55 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap:10px ;
+    margin: 20px;
+    margin-top: 10vh;
+             
+}
+.product {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 20px;
+    text-decoration: none;
+
+}
+.product h2{
+    font-size: 25px;
+}
+
+.product h3 {
+    font-size: 30px;
+    color: green;
+
+}
+
+.product h4 {
+    font-size: 20px;
+    color: purple;
+}
+
+.product p {
+    font-size: 18px;
+    font-style: italic;
+    color:  gray;
+}
+
+.product .img {
+    display: flex;
+    justify-content: center;
+    /* margin: 400px; */
+    
+}
+
+.product .img img  {
+    height: 300px;
+    width: 300px;
+    
+   
+}
+
+/* @media screen and (max-width:1200px) {
+/*     
+    .product .img {
+        height: 600px;
+    }
+/* } */ 

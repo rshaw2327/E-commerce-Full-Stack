@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>customers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Create A New User</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone_number">Phone-number:</label>
+                <input type="tel" id="phone_number" name="phone_number" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address">
+
+
+
+                <button class="c-btn" type="submit">Create</button>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- side bar -->
+    <div class="side-bar">
+        <h2>Ecommerce</h2>
+        <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="orders.html">Orders</a></li>
+            <li><a href="customers.html">Customers</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="settings.html">Settings</a></li>
+        </ul>
+    </div>
+    <!-- main content -->
+    <div class="main-content">
+
+
+        <div class="customers" id="customers">
+            <h1>Customers</h1>
+            <button class="create-btn">Create A New User</button>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th><input type="checkbox"></th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone-number</th>
+                        <!-- <th>Password</th> -->
+                        <th>Address</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <!-- <tr>
+                        <td><input type="checkbox"></td>
+                        <td>231 John Doe</td>
+                        <td>jane@example.com</td>
+                        <td>vendor</td>
+                        <td>04 April 2024</td>
+                        <td><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i> </td>
+                    </tr> -->
+
+                </tbody>
+            </table>
+
+        </div>
+        <script src="https://kit.fontawesome.com/2a218ecf02.js" crossorigin="anonymous"></script>
+
+        <script src="./scripts/customers.js"></script>
+
+</body>
+
+
+</html>

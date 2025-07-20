@@ -1,0 +1,15 @@
+user:-
+name:STRING,REQUIRED
+email:STRING,REQUIRED
+phone number:NUMBER,REQUIRED
+address:{
+    flat number:NUMBER
+    street:STRING
+    postcode:NUMBER
+    city:STRING  
+}, REQUIRED
+password:STRING,REQUIRED
+
+product:-
+
+
