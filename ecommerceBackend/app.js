@@ -3,7 +3,7 @@ const cookieParser = require("cookie-parser");
 const app = express();
 const cors = require("cors")
 
-const whitelist=["http://127.0.0.1:5502","http://127.0.0.1:5501","https://e-commerce-full-stack-zeta.vercel.app/","https://e-commerce-full-stack-2rfq.vercel.app/"] 
+const whitelist=["http://127.0.0.1:5502","http://127.0.0.1:5501","https://e-commerce-full-stack-zeta.vercel.app/*","https://e-commerce-full-stack-2rfq.vercel.app/*"] 
 const corsOptions={
   origin:function(origin,callback){
     if(!origin || whitelist.includes(origin)){
