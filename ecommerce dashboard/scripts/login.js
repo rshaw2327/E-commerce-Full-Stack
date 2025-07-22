@@ -1,3 +1,3 @@
-fetch("http://localhost:9050/api/v1/login/",{
+fetch("https://e-commerce-full-stack-production.up.railway.app/api/v1/login/",{
     method:"POST"
 })

@@ -16,7 +16,7 @@ function createProduct() {
     stock: stock,
   };
   console.log(body);
-  fetch("http://localhost:9050/api/v1/product/create", {
+  fetch("https://e-commerce-full-stack-production.up.railway.app/api/v1/product/create", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -32,7 +32,7 @@ function createProduct() {
     })
   }
 
-fetch("http://localhost:9050/api/v1/product/getAllProducts", {
+fetch("https://e-commerce-full-stack-production.up.railway.app/api/v1/product/getAllProducts", {
   method: "GET",
   headers: {
     "Content-Type": "application/json",

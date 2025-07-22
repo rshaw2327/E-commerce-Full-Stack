@@ -6,7 +6,7 @@ const wishListProduct= JSON.parse(localStorage.getItem("wishlist") || "[]")
 const cartProduct=JSON.parse(localStorage.getItem("cart") || "[]")
   // ? cartProductLocal
   // : [cartProductLocal];
-fetch(`http://localhost:9050/api/v1/product/getSingleProduct/${productid}`)
+fetch(`https://e-commerce-full-stack-production.up.railway.app/api/v1/product/getSingleProduct/${productid}`)
   .then((res) => res.json())
   .then((data) => displaydata(data.product));
 

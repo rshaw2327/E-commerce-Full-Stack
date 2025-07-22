@@ -1,4 +1,4 @@
-fetch("http://localhost:9050/api/v1/product/getAllProducts")
+fetch("https://e-commerce-full-stack-production.up.railway.app/api/v1/product/getAllProducts")
   .then((res) => res.json())
   .then((data) => showData(data.products));
 

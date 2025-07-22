@@ -17,7 +17,7 @@ function createUser() {
     address: address,
   };
   console.log(body);
-  fetch("http://localhost:9050/api/v1/register/", {
+  fetch("https://e-commerce-full-stack-production.up.railway.app/api/v1/register/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -31,7 +31,7 @@ function createUser() {
     });
 }
 
-fetch("http://localhost:9050/api/v1/getAllUsers", {
+fetch("https://e-commerce-full-stack-production.up.railway.app/api/v1/getAllUsers", {
   method: "GET",
 })
   .then((res) => res.json())
